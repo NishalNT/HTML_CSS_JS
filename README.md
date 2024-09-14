@@ -1,5 +1,7 @@
 # HTML_CSS_JS
 
+## Basic HTML Tags
+
 | **Tag**       | **Description**                                                    |
 |---------------|--------------------------------------------------------------------|
 | `<html>`      | Defines the root of an HTML document                               |
