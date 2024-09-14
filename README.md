@@ -1,20 +1,33 @@
 # HTML_CSS_JS
 
-| **CSS Property**       | **Example**                                      | **Description**                                                |
-|------------------------|--------------------------------------------------|----------------------------------------------------------------|
-| `color`                | `#FF0000`, `red`, `rgba(255, 0, 100, 1.0)`       | Specifies the color of text in various formats (hex, name, rgba)|
-| `background-color`      | `red`                                            | Specifies the background color of an element                   |
-| `background-image`      | `url('file.png')`                                | Specifies an image as the background of an element             |
-| `font`                 | `18px 'Tahoma'`                                  | Sets the font size and font family                             |
-| `border`               | `2px solid black`                                | Defines the border thickness, style, and color                 |
-| `border-top`           | `2px solid red`                                  | Defines the border for the top of an element                   |
-| `border-radius`        | `2px`                                            | Rounds the corners of an element                               |
-| `margin`               | `10px`                                           | Specifies the space outside the border (distance to outer elements)|
-| `padding`              | `2px`                                            | Specifies the space inside the border (distance to inner elements)|
-| `width`                | `100%`, `300px`, `1.3em`                         | Specifies the width using percentage, pixels, or em units      |
-| `height`               | `200px`                                          | Specifies the height of an element                             |
-| `text-align`           | `center`                                         | Aligns the text within an element                              |
-| `box-shadow`           | `3px 3px 5px black`                              | Adds shadow around an element                                  |
-| `cursor`               | `pointer`                                        | Defines the type of cursor when hovering over an element       |
-| `display`              | `inline-block`                                   | Specifies how an element is displayed                          |
-| `overflow`             | `hidden`                                         | Specifies what happens if content overflows an element's box   |
+| **Tag**       | **Description**                                                    |
+|---------------|--------------------------------------------------------------------|
+| `<html>`      | Defines the root of an HTML document                               |
+| `<head>`      | Contains metadata/information for the document                     |
+| `<title>`     | Sets the title of the document (shown in browser's title bar)      |
+| `<body>`      | Contains the visible page content                                  |
+| `<h1> to <h6>`| Defines HTML headings from largest (`<h1>`) to smallest (`<h6>`)   |
+| `<p>`         | Defines a paragraph                                                |
+| `<br>`        | Inserts a line break                                               |
+| `<hr>`        | Inserts a horizontal rule (line)                                   |
+| `<a>`         | Defines a hyperlink                                                |
+| `<img>`       | Embeds an image                                                    |
+| `<ul>`        | Defines an unordered (bulleted) list                               |
+| `<ol>`        | Defines an ordered (numbered) list                                 |
+| `<li>`        | Defines a list item                                                |
+| `<div>`       | Defines a division or section in an HTML document                  |
+| `<table>`     | Defines a table                                                    |
+| `<tr>`        | Defines a row in a table                                           |
+| `<th>`        | Defines a header cell in a table                                   |
+| `<td>`        | Defines a data cell in a table                                     |
+| `<form>`      | Defines a form for user input                                      |
+| `<input>`     | Defines an input field                                             |
+| `<button>`    | Defines a clickable button                                         |
+| `<label>`     | Defines a label for an input element                               |
+| `<strong>`    | Defines important text (typically bold)                            |
+| `<b>`         | Defines bold text                                                  |
+| `<i>`         | Defines italic text                                                |
+| `<script>`    | Defines a client-side script (e.g., JavaScript)                    |
+| `<link>`      | Defines a link to an external resource (e.g., CSS file)            |
+
+
