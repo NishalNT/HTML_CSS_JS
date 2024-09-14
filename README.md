@@ -1,33 +1,19 @@
 # HTML_CSS_JS
 
-| **Tag**       | **Description**                                                    |
-|---------------|--------------------------------------------------------------------|
-| `<html>`      | Defines the root of an HTML document                               |
-| `<head>`      | Contains metadata/information for the document                     |
-| `<title>`     | Sets the title of the document (shown in browser's title bar)      |
-| `<body>`      | Contains the visible page content                                  |
-| `<h1> to <h6>`| Defines HTML headings from largest (`<h1>`) to smallest (`<h6>`)   |
-| `<p>`         | Defines a paragraph                                                |
-| `<br>`        | Inserts a line break                                               |
-| `<hr>`        | Inserts a horizontal rule (line)                                   |
-| `<a>`         | Defines a hyperlink                                                |
-| `<img>`       | Embeds an image                                                    |
-| `<ul>`        | Defines an unordered (bulleted) list                               |
-| `<ol>`        | Defines an ordered (numbered) list                                 |
-| `<li>`        | Defines a list item                                                |
-| `<div>`       | Defines a division or section in an HTML document                  |
-| `<table>`     | Defines a table                                                    |
-| `<tr>`        | Defines a row in a table                                           |
-| `<th>`        | Defines a header cell in a table                                   |
-| `<td>`        | Defines a data cell in a table                                     |
-| `<form>`      | Defines a form for user input                                      |
-| `<input>`     | Defines an input field                                             |
-| `<button>`    | Defines a clickable button                                         |
-| `<label>`     | Defines a label for an input element                               |
-| `<strong>`    | Defines important text (typically bold)                            |
-| `<b>`         | Defines bold text                                                  |
-| `<i>`         | Defines italic text                                                |
-| `<script>`    | Defines a client-side script (e.g., JavaScript)                    |
-| `<link>`      | Defines a link to an external resource (e.g., CSS file)            |
+## JavaScript DOM: Interacting with HTML Elements
+
+| **DOM Method**                 | **Description**                                               | **Example**                                                            | **Usage**                                                       |
+|---------------------------------|---------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------|
+| **`document.getElementById()`** | Selects an HTML element by its `id`.                          | `document.getElementById('myDiv');`                                    | Selects an element with `id="myDiv"`.                           |
+| **`document.querySelector()`**  | Selects the first HTML element that matches a CSS selector.   | `document.querySelector('.button');`                                   | Selects the first element with class `button`.                  |
+| **`document.querySelectorAll()`**| Selects all HTML elements that match a CSS selector.          | `document.querySelectorAll('.button');`                                | Selects all elements with class `button`.                       |
+| **`element.innerHTML`**         | Gets or sets the HTML content of an element.                  | `document.getElementById('myDiv').innerHTML = 'Hello!';`               | Sets the inner HTML of `myDiv` to `"Hello!"`.                   |
+| **`element.textContent`**       | Gets or sets the text content of an element.                  | `document.querySelector('p').textContent = 'New Text';`                | Sets the text content of a `<p>` tag to `"New Text"`.           |
+| **`element.style`**             | Sets or modifies the inline style of an HTML element.         | `document.getElementById('myDiv').style.color = 'blue';`               | Changes the text color of `myDiv` to `"blue"`.                  |
+| **`element.addEventListener()`**| Attaches an event listener to an HTML element.                | `button.addEventListener('click', () => alert('Clicked!'));`           | Executes the function when the button is clicked.               |
+| **`element.setAttribute()`**    | Sets a specified attribute on an HTML element.                | `document.querySelector('img').setAttribute('src', 'image.jpg');`      | Changes the `src` of an `<img>` element to `"image.jpg"`.       |
+| **`element.classList.add()`**   | Adds a class to an element's class list.                      | `document.getElementById('myDiv').classList.add('new-class');`          | Adds the `"new-class"` to `myDiv`.                              |
+| **`element.remove()`**          | Removes an HTML element from the DOM.                         | `document.getElementById('myDiv').remove();`                           | Removes the `myDiv` element from the webpage.                   |
+
 
 
