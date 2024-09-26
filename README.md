@@ -75,7 +75,7 @@
 ```bash
 let a = 10;
 let b = 20;
-let str = "The output is:" + a + b; // this code witll give the output as "The output is:1020
+let str = "The output is:" + a + b; // this code will give the output as "The output is:1020"
 console.log(str);
 ```
 ### Onkeyup.html
